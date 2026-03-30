@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #030303;
+  color: rgb(231, 215, 197);
+}
+.navbar {
+  height: 12vh;
+  text-align: center;
+  display: flex;
+  gap: 10vh;
+  justify-content: center;
+  margin-top: 3vh;
+}
+.navbar a {
+  height: 5vh;
+  font-size: 3.2vh;
+  font-weight: 200;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(231, 215, 197);
+}
+.name {
+  height: 45vh;
+}
+.name h1 {
+  margin: 0vh 10vh 0vh 8vh;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+  font-weight: 600;
+  font-size: 6vh;
+  font-size: 6vh;
+}
+.name p {
+  margin: 0vh 10vh 0vh 8vh;
+  margin-bottom: 5vh;
+  width: 90vh;
+  font-size: large;
+}
+.blocks {
+  margin: 0vh 10vh 0vh 8vh;
+  display: flex;
+  gap: 4vh;
+}
+#cv {
+  height: 7vh;
+  width: 22vh;
+  background-color:  rgb(109, 109, 109);;
+  color: rgb(227, 227, 227);
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#work-view {
+  height: 7vh;
+  width: 22vh;
+  background-color:  rgb(109, 109, 109);;
+  color: rgb(227, 227, 227);
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cv:hover {
+  background-color: rgb(98, 97, 97);
+  cursor: pointer;
+}
+#work-view:hover {
+  background-color: rgb(98, 97, 97);
+  cursor: pointer;
+}
+
+.about-me {
+  height: 40vh;
+  font-size: small;
+}
+.about-me h1 {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+    margin-left: 10vh;
+}
+
+.about-me p {
+    margin-left: 10vh;
+  margin-bottom: 2vh;
+  width: 100vh;
+  font-size: large;
+}
+.main-skills {
+  margin: 0vh 10vh 0vh 8vh;
+  height: 45vh;
+
+}
+.main-skills h1 {
+  margin-top: 2.5vh;
+  margin-bottom: 2vh;
+
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+}
+
+.html-css {
+  font-size: 4vh;
+  gap: 2vh;
+  padding-left: 4vh;
+  height: 25vh;
+  width: 50vh;
+  background-color: rgb(109, 109, 109);
+  border-radius: 1rem;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+.contains {
+  height: 10vh;
+  width: 50vh;
+  gap: 1vh;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.js {
+  font-size: 4vh;
+  gap: 2vh;
+  padding-left: 4vh;
+  height: 25vh;
+  width: 50vh;
+  background-color: rgb(109, 109, 109);
+  border-radius: 1rem;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+.react {
+  font-size: 4vh;
+  gap: 2vh;
+  padding-left: 4vh;
+  height: 25vh;
+  width: 50vh;
+  background-color: rgb(109, 109, 109);
+  border-radius: 1rem;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}
+
+.html-css:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.15);
+}
+.js:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.15);
+}
+.react:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.15);
+}
+
+.getintouch{
+  height:45vh;
+  padding:5vh;
+  
+}
+.getintouch h2{
+   margin: 0vh 10vh 0vh 8vh;
+    margin-bottom: 3vh;
+}
+.getintouch p{
+  width:100vh;
+   margin: 0vh 10vh 0vh 8vh;
+  margin-bottom: 5vh;
+  width: 90vh;
+  font-size: large;
+}
+.getintouch button{
+ height: 7vh;
+  width: 22vh;
+background-color: rgb(109, 109, 109);
+border-radius: 1rem;
+cursor: pointer;
+     color: rgb(227, 227, 227);
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.buttons{
+   margin: 0vh 10vh 0vh 8vh;
+   display: flex;
+   gap:1.5vh;
+}
+
+button:hover {
+  background-color: rgb(98, 97, 97);
+  cursor: pointer;
+}

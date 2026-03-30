@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#">projects</a>
+      <a href="#getin">contact</a>
+    </div>
+
+    <div class="name">
+      <h1>Hi, I'm Nisesh Khadka</h1>
+      <p>
+        A passionate web developer focused on creating beautiful and functional
+        websites. I love turning ideas into reality through code.
+      </p>
+      <div class="blocks">
+        <div id="work-view" onClick="gitHub()">view my work</div>
+        <div id="cv">Download CV</div>
+      </div>
+    </div>
+    <div class="about-me" id="about">
+      <h1>About Me</h1>
+      <p>
+        I’m a self-taught web developer with a strong passion for building
+        user-friendly and visually engaging websites. I focus on creating clean,
+        responsive designs that deliver a smooth user experience.
+      </p>
+      <p>
+        Beyond coding, I enjoy exploring new technologies, reading tech blogs,
+        and working on personal projects that help me expand my skills and stay
+        up to date with industry trends.
+      </p>
+    </div>
+    <div class="main-skills" id="skills">
+      <h1>Skills</h1>
+      <div class="skills">
+        <div class="html-css">
+          <h3 style="padding-top: 4vh"><i class="fa-solid fa-code"></i></h3>
+          <div class="contains">
+            <p>HTML<i class="fa-brands fa-html5"></i></p>
+            <p>CSS<i class="fa-brands fa-css3-alt"></i></p>
+          </div>
+        </div>
+        <div class="js">
+          <h3 style="padding-top: 4vh"><i class="fa-solid fa-code"></i></h3>
+          <div class="contains">
+            <p>JavaScript <i class="fa-brands fa-square-js"></i></p>
+          </div>
+        </div>
+        <div class="react">
+          <h3 style="padding-top: 4vh"><i class="fa-solid fa-code"></i></h3>
+          <div class="contains">
+            <p>React <i class="fa-brands fa-react"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="getintouch" id="getin">
+      <h2>Get In Touch</h2>
+      <p>I'm always open to new opportunities and collaborations. If you're interested in working together or just want to connect, feel free to reach out.</p>
+      <div class="buttons">
+      <button onClick="sendEmail()"> <i class="fa-solid fa-envelope"> </i>Email me</button>
+      <button onClick="gitHub()"><i class="fa-brands fa-github"></i> Github</button>
+      <button onClick="linkedin()"><i class="fa-brands fa-linkedin"></i> Linkedin</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
