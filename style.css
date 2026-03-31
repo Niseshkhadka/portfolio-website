@@ -201,11 +201,13 @@ cursor: pointer;
      color: rgb(227, 227, 227);
   font-size: larger;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border:none;
 }
 .buttons{
    margin: 0vh 10vh 0vh 8vh;
    display: flex;
    gap:1.5vh;
+
 }
 
 button:hover {
